@@ -5,4 +5,5 @@ test('Simple test', async ({ request }) => {
 
     const response = await request.get(baseURL + '/users/3')
     expect(response.status()).toBe(200)
+    
 })
